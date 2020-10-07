@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,10 +43,8 @@ public class MainActivity extends AppCompatActivity {
                 // atribui um valor texto para o objeto saida, usando o método setText()
                 saida.setText(vNome + " " + vSobrenome);
 
-                // atribui os valores de forma direta (sem o toString()), porque
-                // já existe uma concatenação de Strings, ou seja, o espaço
-                //saida.setText(nome.getText() + " " + sobrenome.getText());
             }
+
         });
     }
 }
