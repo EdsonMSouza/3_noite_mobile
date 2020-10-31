@@ -1,0 +1,2 @@
+rootProject.name='BDSQLite'
+include ':app'
